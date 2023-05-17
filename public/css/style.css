@@ -1,0 +1,13 @@
+.bio {
+    margin-top: 16px;
+}
+
+.bio-content {
+    margin-left: 52px;
+    width: 100%;
+    background-color: pink;
+}
+
+.bio-cta > button {
+    margin-left: 12px;
+}

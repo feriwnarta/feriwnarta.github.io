@@ -1,0 +1,17 @@
+{
+    "name": "ferdev/feri-portofolio",
+    "description": "feri winarta portofolio",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ferdev\\FeriPortofolio\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "feriwnarta",
+            "email": "feriwnarta26@gmail.com"
+        }
+    ],
+    "require": {}
+}
