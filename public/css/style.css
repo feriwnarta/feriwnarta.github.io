@@ -49,6 +49,11 @@ body {
     font-weight: 500;
 }
 
+.btn-ikuti:hover {
+    background-color: rgb(35, 126, 238);
+    color: white;
+}
+
 .btn-kirim-pesan {
     background-color: rgb(239, 239, 239);
     color: black;
@@ -56,11 +61,29 @@ body {
     font-weight: 500;
 }
 
+.btn-kirim-pesan:hover {
+    color: black;
+    background-color: rgba(239, 239, 239, 0.863);
+}
+
 .btn-down-cv {
     background-color: rgb(239, 239, 239);
     color: black;
     padding: 3px 20px;
     font-weight: 500;
+}
+
+.btn-down-cv:hover {
+    color: black;
+    background-color: rgba(239, 239, 239, 0.863);
+}
+
+.menu:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.bar {
+    border: 2px solid red;
 }
 
 .btn-menu {

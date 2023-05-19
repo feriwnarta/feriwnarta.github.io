@@ -11,4 +11,19 @@ class HomeController
     {
         View::render('home');
     }
+
+    public function tentang(): void
+    {
+        echo 'tentang';
+    }
+
+    public function kontak(): void
+    {
+        echo 'kontak';
+    }
+
+    public function feed(): void
+    {
+        View::render('feed');
+    }
 }

@@ -23,7 +23,7 @@
 
 
                             <div class="avatar">
-                                <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="100" width="100" style="object-fit: cover;">
+                                <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="100" width="100" style="object-fit: cover;">
                             </div>
 
 
@@ -42,10 +42,10 @@
                                     </div>
                                 </div>
 
-                                <div class="moto mt-3">Lorem, ipsum dolor sit amet consectetur</div>
+                                <div class="moto mt-3">Ketekunan dan kesabaran adalah kunci sukses dalam membangun program. Setiap bug adalah kesempatan untuk menemukan solusi yang lebih baik.</div>
 
 
-                                <div class="bio-txt mt-3">Senior Web Engineer. Creative Developer. Content Creator. Whimsical Specialist. International Speaker. Ex-Google.</div>
+                                <div class="bio-txt mt-3">Edited Senior Web Engineer. Creative Developer. Content Creator. Whimsical Specialist. International Speaker. Ex-Google.</div>
 
                                 <!-- icon -->
                                 <div class="icon mt-3 d-flex flex-row align-items-center">
@@ -117,17 +117,17 @@
 
                         <!-- menu -->
                         <div class="d-flex flex-row justify-content-between mt-5">
-                            <div class="container d-flex flex-column align-items-center menu">
+                            <div class="container d-flex flex-column align-items-center menu menu-proyek">
                                 <button type="button" class="btn btn-menu">
                                     Proyek
                                 </button>
                                 <div class="underline-menu active"></div>
                             </div>
-                            <div class="container d-flex flex-column align-items-center menu">
+                            <div class="container d-flex flex-column align-items-center menu menu-ttg-saya">
                                 <button type="button" class="btn btn-menu">Tentang Saya</button>
                                 <div class="underline-menu"></div>
                             </div>
-                            <div class="container d-flex flex-column align-items-center menu">
+                            <div class="container d-flex flex-column align-items-center menu menu-kontak">
                                 <button type="button" class="btn btn-menu">Kontak</button>
                                 <div class="underline-menu"></div>
                             </div>
@@ -137,12 +137,12 @@
                     </header>
 
                     <!-- isi menu -->
-                    <div class="content mt-4">
+                    <div class="content mt-4 wrapper">
 
                         <div class="post rounded-3 px-3 py-4 mt-3">
                             <div class="d-flex flex-row">
                                 <div class="avatar">
-                                    <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                    <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
                                 </div>
                                 <div class="content-post ms-4">
                                     <div class="d-flex flex-row align-items-center">
@@ -151,11 +151,11 @@
                                     </div>
 
                                     <h4 class="title mt-2">
-                                        Hello World!
+                                        BGM PIK APP
                                     </h4>
-                                    <p class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto at, quibusdam quod cum labore voluptatum repudiandae obcaecati facere omnis delectus, eaque voluptatem repellendus eum, repellat atque dicta eos odio iusto.</p>
+                                    <p class="caption">Facilitate the management of residential housing for the occurrence of a good system so that management can be done well and in direct control. Make it easier for the residents of the housing complex to report what is happening around the residential neighborhood.</p>
 
-                                    <img src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000" alt="" srcset="" class="img-fluid rounded-3">
+                                    <img src="public/img/bgm-pik.png" alt="" srcset="" class="img-fluid rounded-3">
 
 
 
@@ -167,7 +167,7 @@
                         <div class="post rounded-3 px-3 py-4 mt-3">
                             <div class="d-flex flex-row">
                                 <div class="avatar">
-                                    <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                    <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
                                 </div>
                                 <div class="content-post ms-4">
                                     <div class="d-flex flex-row align-items-center">
@@ -176,11 +176,61 @@
                                     </div>
 
                                     <h4 class="title mt-2">
-                                        Hello World!
+                                        Cahaya Senja POS
                                     </h4>
-                                    <p class="caption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto at, quibusdam quod cum labore voluptatum repudiandae obcaecati facere omnis delectus, eaque voluptatem repellendus eum, repellat atque dicta eos odio iusto.</p>
+                                    <p class="caption">Microconn is your partner to concept, design and execute every bright idea about digital needs. We collaborate passion and ambition become a real solution.</p>
 
-                                    <img src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000" alt="" srcset="" class="img-fluid rounded-3">
+                                    <img src="public/img/cahsen.png" alt="" srcset="" class="img-fluid rounded-3">
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="post rounded-3 px-3 py-4 mt-3">
+                            <div class="d-flex flex-row">
+                                <div class="avatar">
+                                    <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                </div>
+                                <div class="content-post ms-4">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="name">Feri Winarta</div>
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2">
+                                    </div>
+
+                                    <h4 class="title mt-2">
+                                        Nextg Company Profile
+                                    </h4>
+                                    <p class="caption">Next-G is a company engaged in the field of Information Technology. Focused on helping companies synergize with technology. Helping companies to achieve goals with digital products that have a big impact.</p>
+
+                                    <img src="public/img/nextg.png" alt="" srcset="" class="img-fluid rounded-3">
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="post rounded-3 px-3 py-4 mt-3">
+                            <div class="d-flex flex-row">
+                                <div class="avatar">
+                                    <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                </div>
+                                <div class="content-post ms-4">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="name">Feri Winarta</div>
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2">
+                                    </div>
+
+                                    <h4 class="title mt-2">
+                                        Microconn
+                                    </h4>
+                                    <p class="caption">Microconn is your partner to concept, design and execute every bright idea about digital needs. We collaborate passion and ambition become a real solution.</p>
+
+                                    <img src="public/img/microconn.png" alt="" srcset="" class="img-fluid rounded-3">
 
 
 
