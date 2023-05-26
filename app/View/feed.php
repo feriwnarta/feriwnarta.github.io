@@ -19,15 +19,19 @@
     <div class="container">
         <div class="row">
             <div class="col-5 mx-auto ms-auto slick-feed">
-                <div class="duration-feed">
+                <div class="duration-feed d-flex flex-row">
 
                 </div>
                 <div class="slick-carousel">
                     <div class="item">
                         <img src="https://picsum.photos/id/1019/1200/500" alt="">
                     </div>
+
                     <div class="item">
                         <img src="https://picsum.photos/id/102/1200/500" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="https://picsum.photos/id/1019/1200/500" alt="">
                     </div>
                     <div class="item">
                         <img src="https://picsum.photos/id/1005/1200/500" alt="">

@@ -1,11 +1,23 @@
 $(document).ready(function () {
   $(".slick-carousel").slick({
+    infinite: false,
     slidesToShow: 1,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 4000,
-    infinite: false,
+    autoplaySpeed: 2000,
   });
+
+  $(".slick-carousel").on(
+    "beforeChange",
+    function (event, slick, currentSlide, nextSlide) {
+      var slideCount = slick.slideCount;
+
+      // Jika slide berikutnya adalah slide terakhir, hentikan autoplay
+      if (nextSlide === slideCount - 1) {
+        $(".slick-carousel").slick("slickPause");
+      }
+    }
+  );
 
   let lengthFeed = $(".item").length;
   let feedBar = "";
@@ -16,13 +28,33 @@ $(document).ready(function () {
 
   $(".duration-feed").html(feedBar);
 
-  $('.duration-feed div').each(function() {
-      $(this).width(50);
-  });
-
-  
-
+  animateBars(0);
 });
+
+function animateBars(index) {
+  var bars = $(".duration-feed .bar");
+  var lengthFeed = bars.length;
+
+  if (index < lengthFeed) {
+    var currentBar = $(bars[index]);
+    currentBar.not(":last-child").css("margin-right", "3px");
+
+    currentBar.animate(
+      {
+        width: `${100 / lengthFeed}%`,
+      },
+      {
+        duration: 3000,
+        progress: function (animation, progress) {
+          $(this).css("border", "1px solid white");
+        },
+        complete: function () {
+          animateBars(index + 1); // Rekursif untuk memulai animasi pada elemen berikutnya
+        },
+      }
+    );
+  }
+}
 
 $(window).on("load", function () {
   $(".menu").each(function () {
