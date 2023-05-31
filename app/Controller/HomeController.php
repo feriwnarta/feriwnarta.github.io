@@ -14,16 +14,41 @@ class HomeController
 
     public function tentang(): void
     {
-        echo 'tentang';
+        View::render('about');
     }
 
     public function kontak(): void
     {
-        echo 'kontak';
+        View::render('contact');
     }
 
-    public function feed(): void
+    public function proyek(): void
     {
-        View::render('feed');
+        View::render('project');
+    }
+
+    public function feedBgm(): void
+    {
+        View::render('feed-bgm');
+    }
+
+    public function feedNextg(): void
+    {
+        View::render('feed-nextg');
+    }
+
+    public function feedMicroconn(): void
+    {
+        View::render('feed-microconn');
+    }
+
+    public function feedMicrokit(): void
+    {
+        View::render('feed-microkit');
+    }
+
+    public function feedMicrokitBuilder(): void
+    {
+        View::render('feed-microkit-builder');
     }
 }

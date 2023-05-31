@@ -18,105 +18,121 @@
             <div class="row">
                 <div class="col-sm-7 ms-auto mx-auto">
                     <!-- bio profile -->
-                    <header class="px-3">
+                    <header class="px-3 ">
                         <div class="d-flex flex-row justify-content-between profile">
 
 
                             <div class="avatar">
-                                <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="100" width="100" style="object-fit: cover;">
+                                <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle img-avatar" height="100" width="100" style="object-fit: cover;">
                             </div>
 
 
                             <div class="bio-content">
-                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                <div class="d-flex flex-sm-row flex-column align-items-sm-center justify-content-sm-between">
 
                                     <div class="bio-name d-flex flex-row align-items-center">
+
                                         Feri Winarta
-                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="30" height="30" class="ms-2">
+
+                                        <img src="public/img/icon/check.svg" class="img-check" alt="" srcset="" width="30" height="30" class="ms-2">
                                     </div>
 
                                     <div class="bio-cta">
-                                        <button type="button" class="btn btn-ikuti rounded-3">Ikuti</button>
+                                        <button type="button" class="btn btn-ikuti rounded-3 d-none d-sm-inline-block">Ikuti</button>
                                         <button type="button" class="btn btn-kirim-pesan rounded-3">Github</button>
                                         <button type="button" class="btn btn-down-cv rounded-3">Download CV</button>
                                     </div>
                                 </div>
 
-                                <div class="moto mt-3">Ketekunan dan kesabaran adalah kunci sukses dalam membangun program. Setiap bug adalah kesempatan untuk menemukan solusi yang lebih baik.</div>
+                                <div class="moto mt-3 d-none d-sm-block">Ketekunan dan kesabaran adalah kunci sukses dalam membangun program. Setiap bug adalah kesempatan untuk menemukan solusi yang lebih baik.</div>
 
 
-                                <div class="bio-txt mt-3">Edited Senior Web Engineer. Creative Developer. Content Creator. Whimsical Specialist. International Speaker. Ex-Google.</div>
+                                <div class="moto mt-3 d-none d-sm-block">Mobile Development. Web Development.</div>
 
                                 <!-- icon -->
                                 <div class="icon mt-3 d-flex flex-row align-items-center">
                                     <div class="d-flex flex-row">
-                                        <img src="public/img/icon/suitcase-solid.svg" alt="" srcset="" width="20" height="20">
-                                        <div class="ms-2">Ready!</div>
+                                        <img src="public/img/icon/suitcase-solid.svg" alt="" srcset="" width="20" height="20" class="bio-icon">
+                                        <div class="ms-2 bio-text">Ready!</div>
                                     </div>
 
-                                    <div class="d-flex flex-row ms-3">
+                                    <!-- <div class="d-flex flex-row ms-3">
                                         <img src="public/img/icon/birthday-cake-solid.svg" alt="" srcset="" width="20" height="20">
                                         <div class="ms-2">26 Mei 2002</div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="d-flex flex-row ms-3">
-                                        <img src="public/img/icon/university-solid.svg" alt="" srcset="" width="20" height="20">
-                                        <div class="ms-2">Universitas Buddhi Dharma</div>
+                                        <img src="public/img/icon/university-solid.svg" alt="" srcset="" width="20" height="20" class="bio-icon">
+                                        <div class="ms-2 bio-text">Univ Buddhi Dharma</div>
                                     </div>
                                 </div>
-
-
                             </div>
-
-
                         </div>
 
+
+                        <div class="d-sm-none d-block">
+
+                            <div class="moto mt-2">Feri Winarta</div>
+
+                            <div class="moto mt-2">Ketekunan dan kesabaran adalah kunci sukses dalam membangun program. Setiap bug adalah kesempatan untuk menemukan solusi yang lebih baik.</div>
+
+                            <div class="moto mt-2">Mobile Development. Web Development.</div>
+                        </div>
+
+
                         <!-- story -->
-                        <div class="story mt-5">
+                        <div class="story mt-sm-5 mt-4">
                             <div class="d-flex flex-row align-items-center">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="avatar-story">
-                                        <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                <a href="feed-bgm">
+                                    <div class="d-flex flex-column align-items-center feed">
+                                        <div class="avatar-story">
+                                            <img src="public/img/Home App.png" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                        </div>
+                                        <div class="story-text">Bgm Pik App</div>
                                     </div>
-                                    <div>Bgm pik app</div>
-                                </div>
+                                </a>
 
-                                <div class="d-flex flex-column align-items-center ms-5">
-                                    <div class="avatar-story">
-                                        <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                <a href="feed-nextg">
+                                    <div class="d-flex flex-column align-items-center ms-3 ms-sm-5 feed">
+                                        <div class="avatar-story">
+                                            <img src="public/img/nxtg.jpg" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                        </div>
+                                        <div class="story-text">Nextg</div>
                                     </div>
-                                    <div>Nextg</div>
-                                </div>
+                                </a>
 
-
-                                <div class="d-flex flex-column align-items-center ms-5">
-                                    <div class="avatar-story">
-                                        <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                <a href="feed-microconn">
+                                    <div class="d-flex flex-column align-items-center ms-3 ms-sm-5 feed">
+                                        <div class="avatar-story">
+                                            <img src="public/img/microconn.png" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                        </div>
+                                        <div class="story-text">Microconn</div>
                                     </div>
-                                    <div>Microconn</div>
-                                </div>
+                                </a>
 
-
-                                <div class="d-flex flex-column align-items-center ms-5">
-                                    <div class="avatar-story">
-                                        <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                <a href="feed-microkit">
+                                    <div class="d-flex flex-column align-items-center ms-3 ms-sm-5 feed">
+                                        <div class="avatar-story">
+                                            <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                        </div>
+                                        <div class="story-text">Microkit</div>
                                     </div>
-                                    <div>Microkit</div>
-                                </div>
+                                </a>
 
-                                <div class="d-flex flex-column align-items-center ms-5">
-                                    <div class="avatar-story">
-                                        <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                <a href="feed-microkit-builder">
+                                    <div class="d-flex flex-column align-items-center ms-3 ms-sm-5 feed">
+                                        <div class="avatar-story">
+                                            <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                        </div>
+                                        <div class="story-text">Microkit Builder</div>
                                     </div>
-                                    <div>Microkit Builder</div>
-                                </div>
-
+                                </a>
 
                             </div>
                         </div>
 
                         <!-- menu -->
-                        <div class="d-flex flex-row justify-content-between mt-5">
+                        <div class="d-flex flex-row justify-content-between mt-sm-5 mt-4 menu-wrapper">
                             <div class="container d-flex flex-column align-items-center menu menu-proyek">
                                 <button type="button" class="btn btn-menu">
                                     Proyek
@@ -124,7 +140,7 @@
                                 <div class="underline-menu active"></div>
                             </div>
                             <div class="container d-flex flex-column align-items-center menu menu-ttg-saya">
-                                <button type="button" class="btn btn-menu">Tentang Saya</button>
+                                <button type="button" class="btn btn-menu">Tentang</button>
                                 <div class="underline-menu"></div>
                             </div>
                             <div class="container d-flex flex-column align-items-center menu menu-kontak">
@@ -147,7 +163,7 @@
                                 <div class="content-post ms-4">
                                     <div class="d-flex flex-row align-items-center">
                                         <div class="name">Feri Winarta</div>
-                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2">
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2 check">
                                     </div>
 
                                     <h4 class="title mt-2">
@@ -172,7 +188,7 @@
                                 <div class="content-post ms-4">
                                     <div class="d-flex flex-row align-items-center">
                                         <div class="name">Feri Winarta</div>
-                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2">
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2 check">
                                     </div>
 
                                     <h4 class="title mt-2">
@@ -197,7 +213,7 @@
                                 <div class="content-post ms-4">
                                     <div class="d-flex flex-row align-items-center">
                                         <div class="name">Feri Winarta</div>
-                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2">
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2 check">
                                     </div>
 
                                     <h4 class="title mt-2">
@@ -222,7 +238,7 @@
                                 <div class="content-post ms-4">
                                     <div class="d-flex flex-row align-items-center">
                                         <div class="name">Feri Winarta</div>
-                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2">
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2 check">
                                     </div>
 
                                     <h4 class="title mt-2">
