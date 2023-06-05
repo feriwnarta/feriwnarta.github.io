@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Feri Portofolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/font/system-ui/style.css">
@@ -38,9 +38,16 @@
                                     </div>
 
                                     <div class="bio-cta">
-                                        <button type="button" class="btn btn-ikuti rounded-3 d-none d-sm-inline-block">Ikuti</button>
-                                        <button type="button" class="btn btn-kirim-pesan rounded-3">Github</button>
-                                        <button type="button" class="btn btn-down-cv rounded-3">Download CV</button>
+                                        <!-- <button type="button" class="btn btn-ikuti rounded-3 d-none d-sm-inline-block">
+                                            <a href="https://www.instagram.com/feriwinartaa/" class="text-light">Ikuti</a>
+                                        </button> -->
+
+                                        <button type="button" class="btn btn-ikuti rounded-3">
+                                            <a href="https://github.com/feriwnarta/" class="github text-light">Github</a>
+                                        </button>
+                                        <button type="button" class="btn btn-down-cv rounded-3">
+                                            <a href="http://">Download CV</a>
+                                        </button>
                                     </div>
                                 </div>
 
@@ -248,18 +255,32 @@
 
                                     <img src="public/img/microconn.png" alt="" srcset="" class="img-fluid rounded-3">
 
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="post rounded-3 px-3 py-4 mt-3">
+                            <div class="d-flex flex-row">
+                                <div class="avatar">
+                                    <img src="public/img/foto.jpg" alt="" srcset="" class="rounded-circle" height="50" width="50" style="object-fit: cover;">
+                                </div>
+                                <div class="content-post ms-4">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="name">Feri Winarta</div>
+                                        <img src="public/img/icon/check.svg" alt="" srcset="" width="20" height="20" class="ms-2 check">
+                                    </div>
+
+                                    <h4 class="title mt-2">
+                                        Microkit
+                                    </h4>
+                                    <p class="caption">Microkit is a web builder that helps UMKM actors to grow, advance, and develop in this digital era through a website that they can easily create themselves, which is fun, effective, and affordable.</p>
+
+                                    <img src="public/img/microkit.png" alt="" srcset="" class="img-fluid rounded-3">
 
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
 
                 </div>
             </div>
