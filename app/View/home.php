@@ -46,7 +46,7 @@
                                             <a href="https://github.com/feriwnarta/" class="github text-light">Github</a>
                                         </button>
                                         <button type="button" class="btn btn-down-cv rounded-3">
-                                            <a href="http://">Download CV</a>
+                                            <a href="public/Feri Winarta-resume.pdf" download="feri-winarta-resume">Download CV</a>
                                         </button>
                                     </div>
                                 </div>

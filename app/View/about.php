@@ -1,5 +1,5 @@
 <div class="px-3 py-4">
-    <div>Hallo</div>    
+    <div>Hallo,</div>    
     <br>
 
     <div>Saya adalah orang yang rajin dan berdedikasi terhadap peran saya dan pengembangan profesional saya sendiri. </div>
